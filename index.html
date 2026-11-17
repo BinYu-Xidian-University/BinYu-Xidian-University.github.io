@@ -11,20 +11,22 @@
 <meta property="og:type" content="profile" />
 <meta property="og:image" content="assets/avatar.png" />
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="assets/style.css" />
+<link rel="stylesheet" href="assets/style.css?v=20261117-visual" />
 <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
 </head>
 <body>
+<a class="skip-link" href="#about">跳至主要内容</a>
 
 <div class="progress" id="progress"></div>
 
 <header class="site-header" id="top">
   <div class="wrap header-inner">
-    <a class="brand" href="#top">
+    <a class="brand" href="#top" aria-label="于斌个人主页，回到顶部">
+      <span class="brand-symbol" aria-hidden="true">BY</span>
       <span class="brand-cn">于斌</span>
       <span class="brand-en">Bin&nbsp;Yu</span>
     </a>
-    <nav class="nav">
+    <nav class="nav" id="site-nav" aria-label="主导航">
       <a href="#about">简介</a>
       <a href="#research">研究</a>
       <a href="#news">动态</a>
@@ -32,7 +34,9 @@
       <a href="#projects">项目</a>
       <a href="#honors">荣誉</a>
       <a href="#contact">联系</a>
+      <a class="nav-join" href="#join">加入团队 <span aria-hidden="true">↗</span></a>
     </nav>
+    <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="打开导航菜单"><span></span><span></span><span></span></button>
     <a class="nav-gh" href="https://github.com/BinYu-Xidian-University" target="_blank" rel="noopener" aria-label="GitHub">
       <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
     </a>
@@ -42,17 +46,19 @@
 <main>
 
   <!-- ========== HERO ========== -->
-  <section class="hero">
+  <section class="hero" aria-labelledby="hero-name">
+    <div class="hero-orbit" aria-hidden="true"></div>
     <div class="wrap hero-inner">
       <div class="hero-text">
+        <p class="hero-kicker">SOFTWARE RELIABILITY &amp; SECURITY</p>
         <p class="eyebrow">西安电子科技大学 · 计算机科学与技术学院</p>
-        <h1 class="name">于斌<span class="name-en">Bin&nbsp;Yu</span></h1>
+        <h1 class="name" id="hero-name">于斌<span class="name-en">Bin&nbsp;Yu</span></h1>
         <p class="role">副教授 · 硕士生导师</p>
         <p class="tagline">
-          研究大规模软件系统的<strong>缺陷检测</strong>与<strong>可信验证</strong>——
-          发现软件潜在缺陷，验证程序关键性质，让复杂系统更可信。
+          发现软件潜在缺陷，<br class="hero-break" />验证程序关键性质，<br />让复杂系统<span class="hero-emphasis">更可信。</span>
         </p>
 
+        <p class="hero-summary">专注大规模软件系统的缺陷检测与可信验证，<br />探索大语言模型与形式化方法的结合。</p>
         <ul class="chips">
           <li>大模型驱动缺陷检测</li>
           <li>形式化方法</li>
@@ -62,18 +68,17 @@
         </ul>
 
         <div class="hero-actions">
-          <a class="btn btn-primary" href="https://scholar.google.com.hk/citations?user=c707dNUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">
+          <a class="btn btn-primary" href="#join">本科生如何加入 <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="https://scholar.google.com.hk/citations?user=c707dNUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">
             Google Scholar
             <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
-          <a class="btn btn-ghost" href="mailto:byu@xidian.edu.cn">
-            <svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="4.5" width="15" height="11" rx="1.6"/><path d="m3 6 7 5 7-5" stroke-linecap="round"/></svg>
-            byu@xidian.edu.cn
-          </a>
+
         </div>
       </div>
 
       <div class="hero-figure">
+        <div class="portrait-caption"><span>BIN YU</span><span>XIDIAN UNIVERSITY</span></div>
         <div class="portrait">
           <img src="assets/avatar.png" alt="于斌 照片" width="800" height="800" />
         </div>
@@ -146,7 +151,7 @@
         <span class="sec-num">02</span>
         <div>
           <h2>研究方向</h2>
-          <p class="sec-sub">Research</p>
+          <p class="sec-sub">Research interests · 从理论方法到真实软件系统</p>
         </div>
       </div>
 
@@ -186,6 +191,24 @@
           <p>“信芯”国产高可信数字芯片设计验证平台，面向国产芯片设计流程构建形式化验证与缺陷检测能力，推进产学研转化。</p>
           <p class="card-meta">航天九院 772 所 · 秦创原春种基金</p>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RECRUIT ========== -->
+  <section class="recruit" id="join" aria-labelledby="join-title">
+    <div class="wrap recruit-inner">
+      <div class="join-intro reveal">
+        <p class="section-kicker">JOIN THE GROUP</p>
+        <h2 id="join-title">从一个感兴趣的问题，<br />开始你的科研探索。</h2>
+        <p>欢迎本科生参与科研训练与学科竞赛，也欢迎对大模型、软件安全和形式化验证感兴趣的同学咨询硕士招生。</p>
+        <a class="btn btn-light" href="mailto:byu@xidian.edu.cn?subject=本科生科研训练／研究生招生咨询">联系于老师 <span aria-hidden="true">↗</span></a>
+        <span class="join-email">byu@xidian.edu.cn</span>
+      </div>
+      <div class="join-steps reveal">
+        <div><span class="step-num">01</span><div><h3>寻找感兴趣的方向</h3><p>从大模型、程序分析、内核安全与形式化方法中，找到你想深入了解的问题。</p></div></div>
+        <div><span class="step-num">02</span><div><h3>在实践中探索</h3><p>通过文献阅读、工具复现、实验验证和项目开发，参与科研训练与创新竞赛。</p></div></div>
+        <div><span class="step-num">03</span><div><h3>让我们认识你</h3><p>邮件介绍你的年级、专业、编程基础和兴趣方向，也可以附上做过的项目或代码链接。</p></div></div>
       </div>
     </div>
   </section>
@@ -257,10 +280,18 @@
         <span class="sec-num">04</span>
         <div>
           <h2>代表论文</h2>
-          <p class="sec-sub">Selected Publications</p>
+          <p class="sec-sub">Selected Publications · 探索研究成果</p>
         </div>
       </div>
 
+      <div class="pub-toolbar reveal">
+        <label class="pub-search" for="pub-search">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+          <span class="sr-only">搜索论文题名、作者、刊会或年份</span>
+          <input id="pub-search" type="search" placeholder="搜索题名、作者、刊会或年份…" autocomplete="off" />
+        </label>
+        <span id="pub-count" class="pub-count" role="status" aria-live="polite">显示 46 / 46 篇</span>
+      </div>
       <div class="filters reveal" role="group" aria-label="论文筛选">
         <button class="chip-filter is-active" data-filter="all">全部</button>
         <button class="chip-filter" data-filter="ccfa">CCF 国际 A 类</button>
@@ -269,6 +300,7 @@
         <button class="chip-filter" data-filter="cn">中文</button>
       </div>
 
+      <p id="pub-empty" class="pub-empty" hidden>未找到匹配的论文，请尝试其他关键词或分类。</p>
       <ul class="pubs" id="publist">
         <li class="pub reveal" data-cat="conf ccfa">
           <div class="pub-meta"><span class="pub-year">2026</span></div>
@@ -745,16 +777,7 @@
     </div>
   </section>
 
-  <!-- ========== RECRUIT ========== -->
-  <section class="recruit">
-    <div class="wrap recruit-inner reveal">
-      <div>
-        <h2>招生 · 合作</h2>
-        <p>常年招收硕士研究生，欢迎对 <strong>大模型 + 软件安全</strong>、<strong>程序分析</strong>、<strong>形式化验证</strong> 感兴趣的同学邮件联系；团队亦长期欢迎本科生参与科研训练与学科竞赛。</p>
-      </div>
-      <a class="btn btn-light" href="mailto:byu@xidian.edu.cn">发送邮件</a>
-    </div>
-  </section>
+
 
   <!-- ========== CONTACT ========== -->
   <section class="section" id="contact">
@@ -770,7 +793,7 @@
       <div class="contact-grid">
         <div class="contact-item reveal">
           <span class="c-label">电子邮箱</span>
-          <a class="c-value" href="mailto:byu@xidian.edu.cn">byu@xidian.edu.cn</a>
+          <div class="email-row"><a class="c-value" href="mailto:byu@xidian.edu.cn">byu@xidian.edu.cn</a><button class="copy-email" id="copy-email" data-email="byu@xidian.edu.cn" type="button" aria-label="复制邮箱地址">复制邮箱</button></div>
         </div>
         <div class="contact-item reveal">
           <span class="c-label">办公室</span>
@@ -800,7 +823,7 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <p>© 2026 于斌 · 西安电子科技大学计算机科学与技术学院</p>
-    <p class="footer-meta">Last updated Nov 2026 · Built with plain HTML &amp; CSS</p>
+    <p class="footer-meta">Software reliability · Formal verification · AI for software engineering</p>
   </div>
 </footer>
 
@@ -808,6 +831,6 @@
   <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </a>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=20261117-visual"></script>
 </body>
 </html>
