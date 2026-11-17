@@ -532,7 +532,7 @@ code{
   display:grid;
   grid-template-columns:104px minmax(0,1fr);
   gap:clamp(16px,3vw,28px);
-  padding:22px 0;
+  padding:19px 0;
   border-top:1px solid var(--hair-soft);
   transition:opacity .3s var(--ease);
 }
@@ -572,6 +572,27 @@ code{
   margin:0 0 4px;
   font-size:13.5px;
   color:var(--muted);
+}
+.authors b{
+  font-weight:600;
+  color:var(--ink-soft);
+}
+.pub-authors{ color:var(--muted); }
+.pub-authors b{ font-weight:500; color:var(--ink-soft); }
+.sep{
+  color:#b9b2a4;
+  margin:0 9px;
+}
+.cites{
+  font-family:var(--font-mono);
+  font-size:11px;
+  color:var(--muted);
+  border:1px solid var(--hair);
+  border-radius:2px;
+  padding:1px 6px;
+  margin-left:8px;
+  white-space:nowrap;
+  vertical-align:.08em;
 }
 .venue{
   margin:0;

@@ -58,7 +58,8 @@ git push -u origin main
 - **改文字**：直接编辑 `index.html`，各区块有中文注释分隔（HERO / ABOUT / NEWS / PUBLICATIONS …）。
 - **换照片**：替换 `assets/avatar.png`（建议正方形，边长 ≥ 600px）。
 - **加论文**：复制一条 `<li class="pub" data-cat="conf ccfa">…</li>`。
-  `data-cat` 取值：`conf`（会议）/ `journal`（期刊）/ `ccfa`（CCF-A），可多值，用于筛选按钮。
+  `data-cat` 取值：`conf`（会议）/ `journal`（期刊）/ `ccfa`（CCF-A）/ `cn`（中文期刊、学位论文），可多值，用于筛选按钮。
+  被引次数用 `<span class="cites">被引 9</span>` 附在 venue 行末。
 - **加动态**：复制一条 `<li class="reveal">…</li>`，日期用 `yyy.yymm` 格式；
   需要强调的条目加 `tl-highlight` 类。
 
