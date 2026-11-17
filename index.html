@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>于斌 · Bin Yu — 西安电子科技大学 计算机科学与技术学院</title>
+<meta name="description" content="于斌，西安电子科技大学计算机科学与技术学院副教授、硕士生导师。研究大规模软件系统的缺陷检测与可信验证，聚焦大语言模型驱动的程序缺陷检测、中断驱动程序原子性验证与运行时验证。" />
+<meta name="author" content="于斌 Bin Yu" />
+<meta property="og:title" content="于斌 · Bin Yu — 西安电子科技大学" />
+<meta property="og:description" content="副教授、硕士生导师。大语言模型驱动的程序缺陷检测与可信软件验证。" />
+<meta property="og:type" content="profile" />
+<meta property="og:image" content="assets/avatar.png" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/style.css" />
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-cn">于斌</span>
+      <span class="brand-en">Bin&nbsp;Yu</span>
+    </a>
+    <nav class="nav">
+      <a href="#about">简介</a>
+      <a href="#research">研究</a>
+      <a href="#news">动态</a>
+      <a href="#pub">论文</a>
+      <a href="#projects">项目</a>
+      <a href="#honors">荣誉</a>
+      <a href="#contact">联系</a>
+    </nav>
+    <a class="nav-gh" href="https://github.com/BinYu-Xidian-University" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+    </a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">西安电子科技大学 · 计算机科学与技术学院</p>
+        <h1 class="name">于斌<span class="name-en">Bin&nbsp;Yu</span></h1>
+        <p class="role">副教授 · 硕士生导师</p>
+        <p class="tagline">
+          研究大规模软件系统的<strong>缺陷检测</strong>与<strong>可信验证</strong>——
+          让程序在被证明正确之前，先被证明没有犯错。
+        </p>
+
+        <ul class="chips">
+          <li>LLM 驱动的缺陷检测</li>
+          <li>中断驱动程序验证</li>
+          <li>运行时验证</li>
+          <li>可信芯片设计验证</li>
+        </ul>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://scholar.google.com.hk/citations?user=c707dNUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">
+            Google Scholar
+            <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="mailto:byu@xidian.edu.cn">
+            <svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="4.5" width="15" height="11" rx="1.6"/><path d="m3 6 7 5 7-5" stroke-linecap="round"/></svg>
+            byu@xidian.edu.cn
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-figure">
+        <div class="portrait">
+          <img src="assets/avatar.png" alt="于斌 照片" width="800" height="800" />
+        </div>
+        <dl class="idcard">
+          <div><dt>单位</dt><dd>计算机科学与技术学院</dd></div>
+          <div><dt>学科</dt><dd>计算机软件与理论</dd></div>
+          <div><dt>办公室</dt><dd>南校区网络安全创新研究大楼 308</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== METRICS ========== -->
+  <section class="metrics-band">
+    <div class="wrap metrics">
+      <div class="metric"><span class="num">50<sup>+</sup></span><span class="lbl">学术论文</span></div>
+      <div class="metric"><span class="num">8</span><span class="lbl">发明专利</span></div>
+      <div class="metric"><span class="num">10<sup>+</sup></span><span class="lbl">主持科研项目</span></div>
+      <div class="metric"><span class="num">1</span><span class="lbl">首个 CVE 编号</span></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">01</span>
+        <div>
+          <h2>个人简介</h2>
+          <p class="sec-sub">About</p>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-body reveal">
+          <p class="lead">
+            西安电子科技大学计算机科学与技术学院副教授、硕士生导师。智能软件构造与质量保障国防重点学科研究中心（省部级平台）副主任，西安市软件可信认证关键技术重点实验室副主任。
+          </p>
+          <p>
+            长期围绕大规模软件系统的缺陷检测与可信验证开展基础理论与应用研究，研究路径从<strong>运行时验证</strong>与<strong>时序逻辑规约挖掘</strong>出发，延伸至面向中断驱动型嵌入式程序的原子性缺陷检测，并推进到当前以大语言模型为核心的智能化缺陷检测、规约生成与程序修复。相关工作发表于 ESEC/FSE、ISSTA、ASE、ICSE、ACL、IEEE TPDS、《软件学报》等 CCF A 类会议与期刊，累计发表论文 50 篇，授权/申请发明专利 8 项。
+          </p>
+          <p>
+            研究成果应用于探月工程三期“嫦娥五号”月地高速再入返回飞行试验器控制软件等航天型号软件的质量保障；带领团队研发的“信芯——国产高可信数字芯片设计验证平台”，已与北京微电子技术研究所（航天九院 772 所）等单位合作开展成果转化。
+          </p>
+          <p>
+            现为陕西省三秦英才特殊支持计划“创全国一流”团队、陕西省安全攸关智能软件重点科技创新团队骨干成员，兼任计算机科学与技术学院计算机科学系副主任、计算理论与技术研究所副所长、中国计算机学会形式化方法专委会副秘书长、中国计算机学会高级会员、西电—海思 EDA 技术委员会委员。
+          </p>
+        </div>
+
+        <aside class="about-side reveal">
+          <h3>主要任职</h3>
+          <ul class="ticks">
+            <li>智能软件构造与质量保障国防重点学科研究中心（省部级平台）副主任</li>
+            <li>西安市软件可信认证关键技术重点实验室副主任</li>
+            <li>计算机科学与技术学院计算机科学系副主任</li>
+            <li>计算理论与技术研究所副所长</li>
+            <li>CCF 形式化方法专委会副秘书长</li>
+            <li>CCF 高级会员 · 西电—海思 EDA 技术委员会委员</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESEARCH ========== -->
+  <section class="section section-alt" id="research">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">02</span>
+        <div>
+          <h2>研究方向</h2>
+          <p class="sec-sub">Research</p>
+        </div>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 4.5 4.5"/><path d="M8 10.5h5"/></svg>
+          </div>
+          <h3>大模型驱动的程序缺陷检测</h3>
+          <p>以 LLM 为推理引擎，面向 Linux 驱动、SSL 协议实现、OpenMP 并发程序、Dafny 规约等真实对象，做缺陷发现、规约生成与自动修复。</p>
+          <p class="card-meta">ISSTA · ASE · ACL · FSE · ICSE 2026</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
+          </div>
+          <h3>中断驱动程序的原子性验证</h3>
+          <p>静态分析与动态监控相结合，定位中断驱动型嵌入式程序中因中断插入导致的原子性违背，覆盖中断点选择、延迟 ISR 触发等关键机制。</p>
+          <p class="card-meta">ESEC/FSE · ICSE · ACM TECS · JSS</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h4l3-9 4 13 3-8h4"/></svg>
+          </div>
+          <h3>运行时验证与并行监控</h3>
+          <p>面向全正则时序性质的分布式运行时验证、数据库 API 调用序列的并行监控，以及基于运行时验证的边缘服务器 DoS 攻击检测。</p>
+          <p class="card-meta">IEEE TPDS · 软件学报 · 通信学报</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1.4"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/></svg>
+          </div>
+          <h3>高可信芯片设计验证</h3>
+          <p>“信芯”国产高可信数字芯片设计验证平台，面向国产芯片设计流程构建形式化验证与缺陷检测能力，推进产学研转化。</p>
+          <p class="card-meta">航天九院 772 所 · 秦创原春种基金</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWS ========== -->
+  <section class="section" id="news">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">03</span>
+        <div>
+          <h2>最新动态</h2>
+          <p class="sec-sub">News</p>
+        </div>
+      </div>
+
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="tl-date">2026.10</span>
+          <div class="tl-body"><p>袁子轩同学论文《中断驱动型程序原子性违背静态验证》被 <em>Journal of Systems and Software</em> 录用（中科院 2 区，CCF B 类）。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2026.09</span>
+          <div class="tl-body"><p>刘颜祯同学论文《Dafny 程序规约生成》被 <em>Data Intelligence</em> 录用（中科院 2 区）。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2026.08</span>
+          <div class="tl-body"><p>刘元哲、袁子轩同学论文《中断驱动型程序静态验证》被 <em>ACM Transactions on Embedded Computing Systems</em> 录用（CCF B 类）。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2026.07</span>
+          <div class="tl-body"><p>张晋宁同学一作论文《LLM 赋能 OpenMP 程序数据竞争修复》被 CCF A 类会议 <em>ISSTA</em> Tool Demo 录用。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2026.06</span>
+          <div class="tl-body"><p>刘颜祯同学一作论文《LLM 赋能 Dafny 程序修复》被 CCF A 类会议 <em>ASE</em> Tools and Datasets 录用。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2026.03</span>
+          <div class="tl-body"><p>三篇论文同月入选 CCF A 类会议：<em>FSE</em> Research（LLM 赋能 SSL 协议缺陷检测）、<em>FSE</em> IVR（中断驱动型程序静态验证 / LLM 赋能 Linux driver 缺陷检测）。</p></div>
+        </li>
+        <li class="reveal tl-highlight">
+          <span class="tl-date">2026.02</span>
+          <div class="tl-body"><p>团队获得首个 CVE 编号：<a href="https://www.cve.org/CVERecord?id=CVE-2026-23149" target="_blank" rel="noopener">CVE-2026-23149</a>（drm: Do not allow userspace to trigger kernel warnings in <code>drm_gem_change_handle_ioctl()</code>）。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2025.12</span>
+          <div class="tl-body"><p>“高可信数字芯片设计验证平台”获陕西省第一届卓越工程师大赛行业赛二等奖、总决赛优胜奖（前 10 / 500）；刘元哲同学一作论文被 CCF A 类会议 <em>ICSE</em> NIER 录用。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2025.11</span>
+          <div class="tl-body"><p>袁子轩、王明煜、张晋宁同学获第四届中国研究生网络安全创新大赛二等奖。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2025.10</span>
+          <div class="tl-body"><p>发明专利《中断驱动程序的原子性违反缺陷的动态检测方法及装置》（ZL 2024 1 0690822.0）授权，发明人均为本科生。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-date">2025.08</span>
+          <div class="tl-body"><p>“银聆 AR 助忆守护者”获全国大学生物联网设计竞赛西北赛区一等奖、国赛一等奖。</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== PUBLICATIONS ========== -->
+  <section class="section section-alt" id="pub">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">04</span>
+        <div>
+          <h2>代表论文</h2>
+          <p class="sec-sub">Selected Publications</p>
+        </div>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="论文筛选">
+        <button class="chip-filter is-active" data-filter="all">全部</button>
+        <button class="chip-filter" data-filter="ccfa">CCF-A</button>
+        <button class="chip-filter" data-filter="conf">会议</button>
+        <button class="chip-filter" data-filter="journal">期刊</button>
+      </div>
+
+      <ul class="pubs" id="publist">
+        <li class="pub reveal" data-cat="conf ccfa">
+          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>LLM 赋能 OpenMP 程序数据竞争修复</h3>
+            <p class="authors">张晋宁 等（一作）</p>
+            <p class="venue"><em>ISSTA 2026</em> — Tool Demonstrations</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="conf ccfa">
+          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>LLM 赋能 Dafny 程序修复</h3>
+            <p class="authors">刘颜祯 等（一作）</p>
+            <p class="venue"><em>ASE 2026</em> — Tools and Datasets</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="conf ccfa">
+          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>LLM 赋能 Linux driver 缺陷检测</h3>
+            <p class="authors">王明煜 等（一作）</p>
+            <p class="venue"><em>FSE 2026</em> — IVR · <em>ACL 2026</em> — System Demo</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="conf ccfa">
+          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>LLM 赋能 SSL 协议缺陷检测</h3>
+            <p class="authors">合作论文</p>
+            <p class="venue"><em>FSE 2026</em> — Research Paper</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="conf ccfa">
+          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>中断程序的动态检测</h3>
+            <p class="authors">刘元哲 等（一作）</p>
+            <p class="venue"><em>ICSE 2026</em> — NIER</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="conf ccfa">
+          <div class="pub-meta"><span class="pub-year">2023</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>Detecting Atomicity Violations in Interrupt-Driven Programs via Interruption Points Selecting and Delayed ISR-Triggering</h3>
+            <p class="authors">B. Yu, C. Tian*, H. Xing, et al.</p>
+            <p class="venue"><em>ESEC/FSE 2023</em></p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="journal ccfa">
+          <div class="pub-meta"><span class="pub-year">2023</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>A Distributed Network-Based Runtime Verification of Full Regular Temporal Properties</h3>
+            <p class="authors">B. Yu, C. Tian*, X. Lu, N. Zhang, Z. Duan*</p>
+            <p class="venue"><em>IEEE Transactions on Parallel and Distributed Systems</em>, 34(1): 76–91</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="journal ccfa">
+          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>面向 SQLite3 数据库 API 调用序列的并行运行时验证方法</h3>
+            <p class="authors">于斌, 陆旭, 田聪*, 段振华*, 张南</p>
+            <p class="venue"><em>软件学报</em>, 33(8): 2755–2768</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="journal ccfa">
+          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-main">
+            <h3>一种利用非确定规划的 LTL 合成方法</h3>
+            <p class="authors">陆旭, 于斌*, 田聪*, 段振华*</p>
+            <p class="venue"><em>软件学报</em>, 33(8): 2769–2781</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="journal">
+          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-q1">中科院 1 区</span></div>
+          <div class="pub-main">
+            <h3>A Knowledge-Based Temporal Planning Approach for Urban Traffic Control</h3>
+            <p class="authors">X. Lu, N. Zhang*, C. Tian*, B. Yu, Z. Duan*</p>
+            <p class="venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 22(3): 1907–1918</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="journal">
+          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-main">
+            <h3>Improving Transferability of Adversarial Examples by Saliency Distribution and Data Augmentation</h3>
+            <p class="authors">Y. Dong, L. Tang, C. Tian*, B. Yu*, Z. Duan</p>
+            <p class="venue"><em>Computers &amp; Security</em>, 120: 102811</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="journal">
+          <div class="pub-meta"><span class="pub-year">2021</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-main">
+            <h3>基于运行时验证的边缘服务器 DoS 攻击检测方法</h3>
+            <p class="authors">于斌, 张南, 陆旭, 段振华*, 田聪*</p>
+            <p class="venue"><em>通信学报</em>, 42(9): 75–86</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="journal">
+          <div class="pub-meta"><span class="pub-year">2021</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-main">
+            <h3>Temporal Logic Specification Mining of Programs</h3>
+            <p class="authors">N. Zhang, B. Yu*, C. Tian*, Z. Duan*, X. Yuan</p>
+            <p class="venue"><em>Theoretical Computer Science</em>, 857: 29–42</p>
+          </div>
+        </li>
+        <li class="pub reveal" data-cat="journal">
+          <div class="pub-meta"><span class="pub-year">2018</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-main">
+            <h3>Verifying Temporal Properties of Programs: A Parallel Approach</h3>
+            <p class="authors">B. Yu, Z. Duan*, C. Tian, N. Zhang</p>
+            <p class="venue"><em>Journal of Parallel and Distributed Computing</em>, 118: 89–99</p>
+          </div>
+        </li>
+      </ul>
+
+      <p class="pub-more reveal">
+        完整论文列表见 <a href="https://scholar.google.com.hk/citations?user=c707dNUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">Google Scholar 学术主页 →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">05</span>
+        <div>
+          <h2>科研项目</h2>
+          <p class="sec-sub">Projects</p>
+        </div>
+      </div>
+
+      <div class="proj-grid">
+        <div class="proj-col reveal">
+          <h3 class="proj-title"><span class="dot"></span>主持项目</h3>
+          <ul class="proj-list">
+            <li>国家自然科学基金面上项目 / 青年项目</li>
+            <li>陕西省自然科学基础研究计划</li>
+            <li>西安市科技计划项目</li>
+            <li>西咸新区秦创原春种投资基金（100 万）</li>
+            <li>西安市“三项改革”科技成果转化项目</li>
+            <li>航天五院横向研究课题</li>
+            <li>校级教改实践类（创业人才培养改革实践）重点项目</li>
+            <li>校级卓越工程师校企课程建设项目</li>
+            <li>人工智能赋能研究生教育“揭榜挂帅”项目</li>
+            <li>基本科研业务费科技成果转化基金</li>
+          </ul>
+        </div>
+
+        <div class="proj-col reveal">
+          <h3 class="proj-title"><span class="dot"></span>核心参与</h3>
+          <ul class="proj-list">
+            <li>国家自然科学基金重大项目“嵌入式软件合成过程及产品的质量保障”——大规模程序的运行时验证（田聪教授主持，第三参与人）</li>
+            <li>国家自然科学基金重大研究计划“C/Verilog 程序的 MSVL 验证理论与方法”——模型检测器的设计与实现（段振华教授主持）</li>
+            <li>中国航天科技集团第五研究院“航天嵌入式软件可信集成环境 SpaceDep”——基于 LLVM 平台的内存泄漏检测</li>
+          </ul>
+          <div class="proj-note">
+            <p>相关成果应用于探月工程三期“嫦娥五号”月地高速再入返回飞行试验器控制软件等多款航天软件的开发。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HONORS ========== -->
+  <section class="section section-alt" id="honors">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">06</span>
+        <div>
+          <h2>荣誉与获奖</h2>
+          <p class="sec-sub">Honors &amp; Awards</p>
+        </div>
+      </div>
+
+      <div class="honor-grid">
+        <article class="honor-card reveal">
+          <h3>创新创业</h3>
+          <ul>
+            <li>2022 陕西省科技工作者创新创业大赛 <span class="hl">一等奖</span></li>
+            <li>2023 创客中国广东赛区第一名、全国总决赛第三名（创客组）</li>
+            <li>2025 陕西省第一届卓越工程师大赛决赛优胜奖（前 10/500）</li>
+          </ul>
+        </article>
+
+        <article class="honor-card reveal">
+          <h3>指导学生</h3>
+          <ul>
+            <li>2021 中国国际“互联网+”大学生创新创业大赛 <span class="hl">国赛金奖</span>（信芯平台）</li>
+            <li>2023 “互联网+”国赛三等奖、省赛金奖 + 银奖</li>
+            <li>2023 “挑战杯”课外学术科技作品竞赛国赛三等奖、省赛特等奖</li>
+            <li>2023 “挑战杯”大学生创业计划竞赛国赛三等奖</li>
+            <li>2025 全国大学生物联网设计竞赛国赛一等奖</li>
+          </ul>
+        </article>
+
+        <article class="honor-card reveal">
+          <h3>教学与党建</h3>
+          <ul>
+            <li>2020–2021、2022–2023 年度优秀本科生导学团队</li>
+            <li>2023、2025 年度计算机科学与技术学院优秀党支部书记</li>
+            <li>2024 年西安电子科技大学优秀党支部</li>
+          </ul>
+        </article>
+
+        <article class="honor-card reveal">
+          <h3>个人荣誉</h3>
+          <ul>
+            <li>2021 第七届“互联网+”大赛优秀创新创业导师、“陕西赛区先进个人”</li>
+            <li>2022 第十一届“挑战杯”陕西省优秀指导教师</li>
+            <li>2023 第十四届“挑战杯”陕西省优秀指导教师</li>
+            <li>2021、2022 年度西安电子科技大学优秀创新创业导师</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RECRUIT ========== -->
+  <section class="recruit">
+    <div class="wrap recruit-inner reveal">
+      <div>
+        <h2>招生 · 合作</h2>
+        <p>常年招收硕士研究生，欢迎对 <strong>大模型 + 软件安全</strong>、<strong>程序分析</strong>、<strong>形式化验证</strong> 感兴趣的同学邮件联系；团队亦长期欢迎本科生参与科研训练与学科竞赛。</p>
+      </div>
+      <a class="btn btn-light" href="mailto:byu@xidian.edu.cn">发送邮件</a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">07</span>
+        <div>
+          <h2>联系方式</h2>
+          <p class="sec-sub">Contact</p>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-item reveal">
+          <span class="c-label">电子邮箱</span>
+          <a class="c-value" href="mailto:byu@xidian.edu.cn">byu@xidian.edu.cn</a>
+        </div>
+        <div class="contact-item reveal">
+          <span class="c-label">办公室</span>
+          <span class="c-value">南校区网络安全创新研究大楼 308</span>
+        </div>
+        <div class="contact-item reveal">
+          <span class="c-label">单位</span>
+          <span class="c-value">西安电子科技大学 计算机科学与技术学院</span>
+        </div>
+        <div class="contact-item reveal">
+          <span class="c-label">地址</span>
+          <span class="c-value">陕西省西安市长安区西沣路兴隆段 266 号</span>
+        </div>
+      </div>
+
+      <div class="contact-links reveal">
+        <a href="https://scholar.google.com.hk/citations?user=c707dNUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://faculty.xidian.edu.cn/YUBIN/zh_CN/index.htm" target="_blank" rel="noopener">学校教师主页</a>
+        <a href="https://github.com/BinYu-Xidian-University" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:byu@xidian.edu.cn">Email</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© 2026 于斌 · 西安电子科技大学计算机科学与技术学院</p>
+    <p class="footer-meta">Last updated Nov 2026 · Built with plain HTML &amp; CSS</p>
+  </div>
+</footer>
+
+<a class="to-top" href="#top" aria-label="回到顶部">
+  <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
