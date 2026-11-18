@@ -750,6 +750,105 @@
     </div>
   </section>
 
+  <!-- ========== KERNEL BUGS ========== -->
+  <section class="section" id="bugs">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">06+</span>
+        <div>
+          <h2>内核缺陷与修复</h2>
+          <p class="sec-sub">Linux Kernel Bugs Found by DevGen</p>
+        </div>
+      </div>
+
+      <div class="bug-intro reveal">
+        <p>团队研发的 <strong>DevGen</strong> 工具基于大语言模型自动分析 Linux 内核驱动源码，已发现并被社区确认多处真实缺陷。以下为代表性漏洞列表，完整列表见 <a href="https://github.com/Wmingyu/DevGen-results" target="_blank" rel="noopener">GitHub →</a></p>
+      </div>
+
+      <div class="bug-table-wrap reveal">
+        <table class="bug-table">
+          <thead>
+            <tr>
+              <th>缺陷类型</th>
+              <th>影响子系统 / 函数</th>
+              <th>严重程度</th>
+              <th>状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="bug-tag bug-cve">CVE-2026-23149</span></td>
+              <td>drm_gem_change_handle_ioctl — 未验证负数 handle</td>
+              <td><span class="sev sev-high">高</span></td>
+              <td><span class="bug-status">已修复</span></td>
+            </tr>
+            <tr>
+              <td>Use-After-Free</td>
+              <td>adf_dev_up / adf_devmgr_get_dev_by_id</td>
+              <td><span class="sev sev-high">高</span></td>
+              <td><span class="bug-status">已修复</span></td>
+            </tr>
+            <tr>
+              <td>Memory Leak</td>
+              <td>fbcon_do_set_font / udpv6_sendmsg / vc_allocate</td>
+              <td><span class="sev sev-med">中</span></td>
+              <td><span class="bug-status">已修复</span></td>
+            </tr>
+            <tr>
+              <td>NULL Pointer Deref</td>
+              <td>amd64_fetch_size</td>
+              <td><span class="sev sev-high">高</span></td>
+              <td><span class="bug-status">已修复</span></td>
+            </tr>
+            <tr>
+              <td>Out-of-Bounds</td>
+              <td>gmbus_xfer / fb_io_read / i801_isr_byte_done</td>
+              <td><span class="sev sev-high">高</span></td>
+              <td><span class="bug-status">已修复</span></td>
+            </tr>
+            <tr>
+              <td>Deadlock</td>
+              <td>vkms vblank timer / mac80211_hwsim / fasync signaling</td>
+              <td><span class="sev sev-high">高</span></td>
+              <td><span class="bug-status">已修复</span></td>
+            </tr>
+            <tr>
+              <td>Integer Overflow</td>
+              <td>I2C_TIMEOUT ioctl / hamachi_init_one</td>
+              <td><span class="sev sev-med">中</span></td>
+              <td><span class="bug-status">已修复</span></td>
+            </tr>
+            <tr>
+              <td>Soft Lockup / RCU Stall</td>
+              <td>ast_2500_patch_ahb / TCSBRKP duration</td>
+              <td><span class="sev sev-high">高</span></td>
+              <td><span class="bug-status">已修复</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bug-stats reveal">
+        <div class="bug-stat">
+          <span class="bug-stat-num">40+</span>
+          <span class="bug-stat-lbl">已确认缺陷</span>
+        </div>
+        <div class="bug-stat">
+          <span class="bug-stat-num">15</span>
+          <span class="bug-stat-lbl">CVE 编号</span>
+        </div>
+        <div class="bug-stat">
+          <span class="bug-stat-num">6</span>
+          <span class="bug-stat-lbl">缺陷类型覆盖</span>
+        </div>
+        <div class="bug-stat">
+          <span class="bug-stat-num">100%</span>
+          <span class="bug-stat-lbl">社区确认率</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ========== RECRUIT ========== -->
   <section class="recruit">
     <div class="wrap recruit-inner reveal">
