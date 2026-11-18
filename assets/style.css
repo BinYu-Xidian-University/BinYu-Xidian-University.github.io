@@ -657,19 +657,13 @@ code{
 }
 .pub:hover h3{ color:var(--blue); }
 .authors{
-  margin:0 0 4px;
+  margin:0 0 3px;
   font-size:13.5px;
   color:var(--muted);
 }
 .authors b{
   font-weight:600;
   color:var(--ink-soft);
-}
-.pub-authors{ color:var(--muted); }
-.pub-authors b{ font-weight:500; color:var(--ink-soft); }
-.sep{
-  color:#b9b2a4;
-  margin:0 9px;
 }
 .cites{
   font-family:var(--font-mono);
