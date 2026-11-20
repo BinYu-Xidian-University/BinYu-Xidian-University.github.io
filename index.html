@@ -11,7 +11,7 @@
 <meta property="og:type" content="profile" />
 <meta property="og:image" content="assets/avatar.png" />
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="assets/style.css" />
+<link rel="stylesheet" href="assets/style.css?v=20261119-bugs-tracks" />
 <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
 </head>
 <body>
@@ -31,6 +31,7 @@
       <a href="#pub">论文</a>
       <a href="#projects">项目</a>
       <a href="#honors">荣誉</a>
+      <a href="#bugs">缺陷</a>
       <a href="#contact">联系</a>
     </nav>
     <a class="nav-gh" href="https://github.com/BinYu-Xidian-University" target="_blank" rel="noopener" aria-label="GitHub">
@@ -262,7 +263,7 @@
 
       <div class="filters reveal" role="group" aria-label="论文筛选">
         <button class="chip-filter is-active" data-filter="all">全部</button>
-        <button class="chip-filter" data-filter="ccfa">CCF-A</button>
+        <button class="chip-filter" data-filter="ccfa">CCF-A（含各赛道）</button>
         <button class="chip-filter" data-filter="conf">会议</button>
         <button class="chip-filter" data-filter="journal">期刊</button>
         <button class="chip-filter" data-filter="cn">中文</button>
@@ -270,369 +271,415 @@
 
       <ul class="pubs" id="publist">
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://doi.org/10.1145/3803437.3805564" target="_blank" rel="noopener">DevGen: Automated Generation of Virtual Device Models for Kernel Drivers via Large Language Models</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/13/DevGen-Automated-Generation-of-Virtual-Device-Models-for-Kernel-Drivers-via-Large-La" target="_blank" rel="noopener noreferrer">IVR · Ideas, Visions and Reflections</a></div>
+            <h3>DevGen: Automated Generation of Virtual Device Models for Kernel Drivers via Large Language Models</h3>
             <p class="authors">M. Wang, <b>B. Yu</b>*, W. Lu, K. Gao, Z. Wang, C. Wen, X. Lu, C. Tian</p>
             <p class="venue"><em>FSE 2026</em> — ACM International Conference on the Foundations of Software Engineering</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://doi.org/10.1145/3803437.3805563" target="_blank" rel="noopener">IDPVerifier: Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce" target="_blank" rel="noopener noreferrer">IVR · Ideas, Visions and Reflections</a></div>
+            <h3>IDPVerifier: Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints</h3>
             <p class="authors">Z. Yuan, <b>B. Yu</b>*, X. Lu, W. Wang, Y. Liu, C. Wen, M. Wang, C. Chen</p>
             <p class="venue"><em>FSE 2026</em> — ACM International Conference on the Foundations of Software Engineering</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://doi.org/10.1145/3808212" target="_blank" rel="noopener">RAT: Retrieval-Augmented Testing of Certificate Revocation List Parsers in TLS Implementations</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/199/RAT-Retrieval-Augmented-Testing-of-Certificate-Revocation-List-Parsers-in-TLS-Implem" target="_blank" rel="noopener noreferrer">Research Papers</a></div>
+            <h3>RAT: Retrieval-Augmented Testing of Certificate Revocation List Parsers in TLS Implementations</h3>
             <p class="authors">C. Chen, Q. Cheng, P. Ren, H. Yu, C. Tian, Z. Duan, X. Lu, <b>B. Yu</b>, W.-S. Wang</p>
             <p class="venue"><em>Proc. ACM Softw. Eng. (FSE)</em>, 3: 4666–4689</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://doi.org/10.1145/3832783.3834610" target="_blank" rel="noopener">DafnyRAG: A Retrieval-Augmented and Verification-Driven Tool for Automated Repair of Dafny Code</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/track/ase-2026/ase-2026-tools-and-data-sets" target="_blank" rel="noopener noreferrer">Tools and Datasets</a></div>
+            <h3>DafnyRAG: A Retrieval-Augmented and Verification-Driven Tool for Automated Repair of Dafny Code</h3>
             <p class="authors">Y. Liu, X. Lu, <b>B. Yu</b>*, H. Zhang, C. Chen, M. Wang</p>
             <p class="venue"><em>ASE 2026</em> — Automated Software Engineering</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=ACSLBench:+A+Verified+C/ACSL+Corpus+and+Benchmark+with+Compositional+Call+Chains+for+Formal+Specification+Synthesis" target="_blank" rel="noopener">ACSLBench: A Verified C/ACSL Corpus and Benchmark with Compositional Call Chains for Formal Specification Synthesis</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/track/ase-2026/ase-2026-tools-and-data-sets" target="_blank" rel="noopener noreferrer">Tools and Datasets</a></div>
+            <h3>ACSLBench: A Verified C/ACSL Corpus and Benchmark with Compositional Call Chains for Formal Specification Synthesis</h3>
             <p class="authors">J. Hu, C. Wen, <b>B. Yu</b>, J. Cao, D. Liu, W. Sun, H. Li, S. Qin, C. Tian</p>
             <p class="venue"><em>ASE 2026</em> — Automated Software Engineering</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=NL2VBench:+A+Benchmark+for+End-to-End+Natural-Language+to+Verifiable+Rust+Generation" target="_blank" rel="noopener">NL2VBench: A Benchmark for End-to-End Natural-Language to Verifiable Rust Generation</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/track/ase-2026/ase-2026-tools-and-data-sets" target="_blank" rel="noopener noreferrer">Tools and Datasets</a></div>
+            <h3>NL2VBench: A Benchmark for End-to-End Natural-Language to Verifiable Rust Generation</h3>
             <p class="authors">L. Hu, C. Wen, D. Liu, Z. Xu, Z. Li, J. Su, <b>B. Yu</b>, S. Qin</p>
             <p class="venue"><em>ASE 2026</em> — Automated Software Engineering</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Understanding+the+Performance-Effectiveness+Trade-Offs+of+AddressSanitizer+in+Real-World+Programs" target="_blank" rel="noopener">Understanding the Performance-Effectiveness Trade-Offs of AddressSanitizer in Real-World Programs</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/ase-2026/ase-2026-industry-showcase/14/Understanding-the-Performance-Effectiveness-Trade-Offs-of-AddressSanitizer-in-Real-Wo" target="_blank" rel="noopener noreferrer">Industry Showcase</a></div>
+            <h3>Understanding the Performance-Effectiveness Trade-Offs of AddressSanitizer in Real-World Programs</h3>
             <p class="authors">J. Xi, C. Wen, Z. Lin, Y. Cai, J. Su, <b>B. Yu</b>, Z. Li, S. Qin</p>
             <p class="venue"><em>ASE 2026</em> — Automated Software Engineering</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Atomicity+Violation+Detection+for+Interrupt-Driven+Programs+via+Incrementally+Exploring+Concurrent+Paths" target="_blank" rel="noopener">Atomicity Violation Detection for Interrupt-Driven Programs via Incrementally Exploring Concurrent Paths</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori" target="_blank" rel="noopener noreferrer">NIER · New Ideas and Emerging Results</a></div>
+            <h3>Atomicity Violation Detection for Interrupt-Driven Programs via Incrementally Exploring Concurrent Paths</h3>
             <p class="authors">Y. Liu, <b>B. Yu</b>*, R. Li, C. Wen, X. Lu, C. Chen, C. Tian</p>
             <p class="venue"><em>ICSE 2026</em> — International Conference on Software Engineering <span class="cites">被引 2</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Bridging+Kernel+Drivers+and+Virtual+Device+Models+with+LLM-Powered+Automation" target="_blank" rel="noopener">Bridging Kernel Drivers and Virtual Device Models with LLM-Powered Automation</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://aclanthology.org/2026.acl-demo.24/" target="_blank" rel="noopener noreferrer">System Demonstrations</a></div>
+            <h3>Bridging Kernel Drivers and Virtual Device Models with LLM-Powered Automation</h3>
             <p class="authors">M. Wang, <b>B. Yu</b>*, W. Lu, Z. Wang, K. Gao, C. Wen, X. Lu, C. Tian</p>
             <p class="venue"><em>ACL 2026</em> — Annual Meeting of the Association for Computational Linguistics（System Demo）</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Formally+Specifying+the+Intended+Behavior+of+the+Program:+LLM-Driven+Neuro-Symbolic+Program+Specification+Synthesis" target="_blank" rel="noopener">Formally Specifying the Intended Behavior of the Program: LLM-Driven Neuro-Symbolic Program Specification Synthesis</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://aclanthology.org/2026.acl-demo.66/" target="_blank" rel="noopener noreferrer">System Demonstrations</a></div>
+            <h3>Formally Specifying the Intended Behavior of the Program: LLM-Driven Neuro-Symbolic Program Specification Synthesis</h3>
             <p class="authors">C. Wen, J. Hu, Y.-K. Hu, J. Su, <b>B. Yu</b>, D. Liu, Z. Xu, W. Sun, S. Qin, C. Tian</p>
             <p class="venue"><em>ACL 2026</em> — Annual Meeting of the Association for Computational Linguistics <span class="cites">被引 9</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=T4NMTD:+Transition-Centric+Reinforcement+Learning+for+Non-Markovian+Task+Decomposition" target="_blank" rel="noopener">T4NMTD: Transition-Centric Reinforcement Learning for Non-Markovian Task Decomposition</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://ojs.aaai.org/index.php/AAAI/article/view/39620" target="_blank" rel="noopener noreferrer">Main Track · Technical Track</a></div>
+            <h3>T4NMTD: Transition-Centric Reinforcement Learning for Non-Markovian Task Decomposition</h3>
             <p class="authors">R. Miao, X. Lu, C. Tian, <b>B. Yu</b>, Z. Duan</p>
             <p class="venue"><em>AAAI 2026</em>, 40(29): 24388</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=OpenRepair:+An+Automated+Tool+for+OpenMP+Data+Race+Repair+via+Retrieval-Augmented+LLMs" target="_blank" rel="noopener">OpenRepair: An Automated Tool for OpenMP Data Race Repair via Retrieval-Augmented LLMs</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM" target="_blank" rel="noopener noreferrer">Tool Demonstrations</a></div>
+            <h3>OpenRepair: An Automated Tool for OpenMP Data Race Repair via Retrieval-Augmented LLMs</h3>
             <p class="authors">J. Zhang, <b>B. Yu</b>*, H. Zhang, L. Wang, W. Wang, X. Lu</p>
             <p class="venue"><em>ISSTA 2026</em> — Companion Proceedings（Tool Demo）</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-b">会议</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://doi.org/10.1109/SANER67736.2026.00096" target="_blank" rel="noopener">Preserving Concurrency-Revealing Seeds in Fuzzing of Concurrent Programs via Tuple-Based Coverage Evaluation</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-B 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/saner-2026/saner-2026-early-research-achievement-era--track/2/Preserving-Concurrency-Revealing-Seeds-in-Fuzzing-of-Concurrent-Programs-via-Tuple-Ba" target="_blank" rel="noopener noreferrer">ERA · Early Research Achievement</a></div>
+            <h3>Preserving Concurrency-Revealing Seeds in Fuzzing of Concurrent Programs via Tuple-Based Coverage Evaluation</h3>
             <p class="authors">J. Huang, C. Wen, J. Su, Z. Xu, <b>B. Yu</b>, S. Qin, C. Tian</p>
             <p class="venue"><em>SANER 2026</em> — Software Analysis, Evolution and Reengineering <span class="cites">被引 5</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-q1">中科院 1 区</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Integrating+Ensemble+Learning+and+Large+Language+Models+for+Efficient+Formal+Verification+of+IP-based+Aerospace+Systems" target="_blank" rel="noopener">Integrating Ensemble Learning and Large Language Models for Efficient Formal Verification of IP-based Aerospace Systems</a></h3>
+            <div class="pub-labels"><span class="badge b-b">期刊</span><span class="badge b-q1" title="2025 年升级版 · 计算机科学大类分区">中科院 1 区 · TOP</span></div>
+            <h3>Integrating Ensemble Learning and Large Language Models for Efficient Formal Verification of IP-based Aerospace Systems</h3>
             <p class="authors">Z. Ma, C. Wen, <b>B. Yu</b>, J. Su</p>
             <p class="venue"><em>Information Fusion</em>, 125: 103466 <span class="cites">被引 17</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=From+Potential+to+Confirmed:+Effective+Detection+of+Atomicity+Violations+in+Interrupt-Driven+Programs+via+Guided+Memory+Access+Graph" target="_blank" rel="noopener">From Potential to Confirmed: Effective Detection of Atomicity Violations in Interrupt-Driven Programs via Guided Memory Access Graph</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 2 区</span></div>
+            <h3>From Potential to Confirmed: Effective Detection of Atomicity Violations in Interrupt-Driven Programs via Guided Memory Access Graph</h3>
             <p class="authors">Z. Yuan, <b>B. Yu</b>*, X. Wang, X. Lu, C. Wen, W. Wang, H. Wang, C. Chen, C. Tian</p>
             <p class="venue"><em>Journal of Systems and Software</em>, 113168</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2026</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2026</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Verifying+Interrupt-driven+Programs+Efficiently+via+Heuristic+and+Reduced+Partial-Order+Constraints" target="_blank" rel="noopener">Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-Order Constraints</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 3 区</span></div>
+            <h3>Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-Order Constraints</h3>
             <p class="authors"><b>B. Yu</b>, X. Lu, Y. Liu, Z. Yuan, L. Wang, M. Wang, C. Chen, Y. Dong</p>
             <p class="venue"><em>ACM Transactions on Embedded Computing Systems</em></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2025</span><span class="badge b-b">期刊</span></div>
+          <div class="pub-meta"><span class="pub-year">2025</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=On+the+Exploitation+of+Control+Knowledge+for+Enhancing+Automated+Planning" target="_blank" rel="noopener">On the Exploitation of Control Knowledge for Enhancing Automated Planning</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 2 区</span></div>
+            <h3>On the Exploitation of Control Knowledge for Enhancing Automated Planning</h3>
             <p class="authors">X. Lu, <b>B. Yu</b>, C. Tian, C. Chen, Z. Duan</p>
             <p class="venue"><em>Information Sciences</em>, 693: 121666 <span class="cites">被引 2</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2025</span><span class="badge b-b">期刊</span></div>
+          <div class="pub-meta"><span class="pub-year">2025</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=WASIF:+In-depth+Detection+of+Vulnerabilities+in+Wasm+Smart+Contracts+via+Information+Flows+and+Function+Invocation+Sequences" target="_blank" rel="noopener">WASIF: In-depth Detection of Vulnerabilities in Wasm Smart Contracts via Information Flows and Function Invocation Sequences</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 2 区</span></div>
+            <h3>WASIF: In-depth Detection of Vulnerabilities in Wasm Smart Contracts via Information Flows and Function Invocation Sequences</h3>
             <p class="authors">C. Chen, X. Wang, <b>B. Yu</b>, Y. Tian, X. Lu, P. Ren, J. Liu</p>
             <p class="venue"><em>Blockchain: Research and Applications</em>, 100287 <span class="cites">被引 3</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2025</span><span class="badge b-b">期刊</span></div>
+          <div class="pub-meta"><span class="pub-year">2025</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Collaboration+with+Generative+AI+to+Improve+Requirements+Change" target="_blank" rel="noopener">Collaboration with Generative AI to Improve Requirements Change</a></h3>
+            <div class="pub-labels"><span class="badge b-b">期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 2 区</span></div>
+            <h3>Collaboration with Generative AI to Improve Requirements Change</h3>
             <p class="authors">Y. Kong, N. Zhang, Z. Duan, <b>B. Yu</b></p>
             <p class="venue"><em>Computer Standards &amp; Interfaces</em>, 94: 104013 <span class="cites">被引 12</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf">
-          <div class="pub-meta"><span class="pub-year">2025</span><span class="badge b-b">会议</span></div>
+          <div class="pub-meta"><span class="pub-year">2025</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Formal+Verification+of+Preemptive+Interrupt-Driven+Programs+Based+on+Partial+Order+Modeling" target="_blank" rel="noopener">Formal Verification of Preemptive Interrupt-Driven Programs Based on Partial Order Modeling</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-C 会议</span><span class="badge b-track-pending" title="暂未查到足以确认具体赛道的官方资料">赛道待核实</span></div>
+            <h3>Formal Verification of Preemptive Interrupt-Driven Programs Based on Partial Order Modeling</h3>
             <p class="authors">J. Zhao, M. Wang, <b>B. Yu</b>, Z. Yuan, Q. Yang</p>
             <p class="venue"><em>QRS 2025</em> — International Conference on Software Quality, Reliability and Security <span class="cites">被引 2</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf">
-          <div class="pub-meta"><span class="pub-year">2025</span><span class="badge b-b">会议</span></div>
+          <div class="pub-meta"><span class="pub-year">2025</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=WASDAM:+Effectively+Detecting+Vulnerabilities+in+Wasm+Smart+Contracts+Based+on+the+Data+Access+Model" target="_blank" rel="noopener">WASDAM: Effectively Detecting Vulnerabilities in Wasm Smart Contracts Based on the Data Access Model</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-C 会议</span><span class="badge b-track-pending" title="暂未查到足以确认具体赛道的官方资料">赛道待核实</span></div>
+            <h3>WASDAM: Effectively Detecting Vulnerabilities in Wasm Smart Contracts Based on the Data Access Model</h3>
             <p class="authors">C. Chen, X. Wang, P. Ren, <b>B. Yu</b>, J. Liu</p>
             <p class="venue"><em>QRS 2025</em> — International Conference on Software Quality, Reliability and Security</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2024</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2024</span></div>
           <div class="pub-main">
-            <h3><a href="https://doi.org/10.1145/3691620.3695325" target="_blank" rel="noopener">Detecting Atomicity Violations for Interrupt-driven Programs via Systematic Scheduling and Prefix-directed Feedback</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin" target="_blank" rel="noopener noreferrer">Posters</a></div>
+            <h3>Detecting Atomicity Violations for Interrupt-driven Programs via Systematic Scheduling and Prefix-directed Feedback</h3>
             <p class="authors">R. Li, <b>B. Yu</b>, X. Lu, L. Ke, J. Chen, Z. Yuan, J. Wang, C. Tian, Y. Dong</p>
             <p class="venue"><em>ASE 2024</em> — Automated Software Engineering <span class="cites">被引 2</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2024</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2024</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Generating+Java+Code+Pairing+with+ChatGPT" target="_blank" rel="noopener">Generating Java Code Pairing with ChatGPT</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 4 区</span></div>
+            <h3>Generating Java Code Pairing with ChatGPT</h3>
             <p class="authors">Z. Zhao, N. Zhang, <b>B. Yu</b>, Z. Duan</p>
             <p class="venue"><em>Theoretical Computer Science</em>, 1021: 114879 <span class="cites">被引 15</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2024</span><span class="badge b-q1">中科院 1 区</span></div>
+          <div class="pub-meta"><span class="pub-year">2024</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Using+Experience+Classification+for+Training+Non-Markovian+Tasks" target="_blank" rel="noopener">Using Experience Classification for Training Non-Markovian Tasks</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-C 期刊</span><span class="badge b-q1" title="2025 年升级版 · 计算机科学大类分区">中科院 1 区 · TOP</span></div>
+            <h3>Using Experience Classification for Training Non-Markovian Tasks</h3>
             <p class="authors">R. Miao, X. Lu, C. Tian, <b>B. Yu</b>, J. Cui, Z. Duan</p>
             <p class="venue"><em>Expert Systems with Applications</em>, 255: 124649 <span class="cites">被引 2</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2023</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2023</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Detecting+Atomicity+Violations+in+Interrupt-Driven+Programs+via+Interruption+Points+Selecting+and+Delayed+ISR-Triggering" target="_blank" rel="noopener">Detecting Atomicity Violations in Interrupt-Driven Programs via Interruption Points Selecting and Delayed ISR-Triggering</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption" target="_blank" rel="noopener noreferrer">Research Papers</a></div>
+            <h3>Detecting Atomicity Violations in Interrupt-Driven Programs via Interruption Points Selecting and Delayed ISR-Triggering</h3>
             <p class="authors"><b>B. Yu</b>, C. Tian, H. Xing, Z. Yang, J. Su, X. Lu, J. Yang, L. Zhao, X. Li, Z. Duan</p>
             <p class="venue"><em>ESEC/FSE 2023</em> — ACM Joint European Software Engineering Conference <span class="cites">被引 9</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal ccfa">
-          <div class="pub-meta"><span class="pub-year">2023</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2023</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=A+Distributed+Network-Based+Runtime+Verification+of+Full+Regular+Temporal+Properties" target="_blank" rel="noopener">A Distributed Network-Based Runtime Verification of Full Regular Temporal Properties</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-A 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 2 区 · TOP</span></div>
+            <h3>A Distributed Network-Based Runtime Verification of Full Regular Temporal Properties</h3>
             <p class="authors"><b>B. Yu</b>, C. Tian*, X. Lu*, N. Zhang, Z. Duan*</p>
             <p class="venue"><em>IEEE Transactions on Parallel and Distributed Systems</em>, 34(1): 76–91 <span class="cites">被引 3</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2023</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2023</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=SBDT:+Search-Based+Differential+Testing+of+Certificate+Parsers+in+SSL/TLS+Implementations" target="_blank" rel="noopener">SBDT: Search-Based Differential Testing of Certificate Parsers in SSL/TLS Implementations</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://2023.issta.org/track/issta-2023-technical-papers" target="_blank" rel="noopener noreferrer">Technical Papers</a></div>
+            <h3>SBDT: Search-Based Differential Testing of Certificate Parsers in SSL/TLS Implementations</h3>
             <p class="authors">C. Chen, P. Ren, Z. Duan, C. Tian, X. Lu, <b>B. Yu</b></p>
             <p class="venue"><em>ISSTA 2023</em> — International Symposium on Software Testing and Analysis <span class="cites">被引 29</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2023</span><span class="badge b-b">期刊</span></div>
+          <div class="pub-meta"><span class="pub-year">2023</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Adaptively+Parallel+Runtime+Verification+Based+on+Distributed+Network+for+Temporal+Properties" target="_blank" rel="noopener">Adaptively Parallel Runtime Verification Based on Distributed Network for Temporal Properties</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 3 区</span></div>
+            <h3>Adaptively Parallel Runtime Verification Based on Distributed Network for Temporal Properties</h3>
             <p class="authors"><b>B. Yu</b>, X. Lu*, C. Tian*, M. Wang, C. Chen, M. Lei, Z. Duan</p>
             <p class="venue"><em>Parallel Computing</em>, 117: 103034 <span class="cites">被引 1</span></p>
           </div>
         </li>
-        <li class="pub reveal" data-cat="journal cn ccfa">
-          <div class="pub-meta"><span class="pub-year">2023</span><span class="badge b-a">CCF-A</span></div>
+        <li class="pub reveal" data-cat="journal cn">
+          <div class="pub-meta"><span class="pub-year">2023</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=基于误差分治的神经网络验证" target="_blank" rel="noopener">基于误差分治的神经网络验证</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="CCF 计算领域高质量科技期刊分级目录（2025）">CCF 中文 T1</span></div>
+            <h3>基于误差分治的神经网络验证</h3>
             <p class="authors">董彦松, 刘月浩, 董旭乾, 赵亮, 田聪, <b>于斌</b>, 段振华</p>
             <p class="venue"><em>软件学报</em>, 35(5): 2307–2324</p>
           </div>
         </li>
-        <li class="pub reveal" data-cat="journal cn ccfa">
-          <div class="pub-meta"><span class="pub-year">2023</span><span class="badge b-a">CCF-A</span></div>
+        <li class="pub reveal" data-cat="journal cn">
+          <div class="pub-meta"><span class="pub-year">2023</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=智能规划中面向简单偏好的高效求解方法" target="_blank" rel="noopener">智能规划中面向简单偏好的高效求解方法</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="CCF 计算领域高质量科技期刊分级目录（2025）">CCF 中文 T1</span></div>
+            <h3>智能规划中面向简单偏好的高效求解方法</h3>
             <p class="authors">陆旭, <b>于斌</b>*, 段振华, 王德奎, 陈矗, 崔进</p>
             <p class="venue"><em>软件学报</em>, 34(7): 3099–3115</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2022</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Improving+Transferability+of+Adversarial+Examples+by+Saliency+Distribution+and+Data+Augmentation" target="_blank" rel="noopener">Improving Transferability of Adversarial Examples by Saliency Distribution and Data Augmentation</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 2 区</span></div>
+            <h3>Improving Transferability of Adversarial Examples by Saliency Distribution and Data Augmentation</h3>
             <p class="authors">Y. Dong, L. Tang, C. Tian*, <b>B. Yu</b>*, Z. Duan</p>
             <p class="venue"><em>Computers &amp; Security</em>, 120: 102811 <span class="cites">被引 6</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2022</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=A+Novel+Load+Balancing+Scheme+for+Mobile+Edge+Computing" target="_blank" rel="noopener">A Novel Load Balancing Scheme for Mobile Edge Computing</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 2 区</span></div>
+            <h3>A Novel Load Balancing Scheme for Mobile Edge Computing</h3>
             <p class="authors">Z. Duan, C. Tian, N. Zhang, M. Zhou, <b>B. Yu</b>, X. Wang, J. Guo, Y. Wu</p>
             <p class="venue"><em>Journal of Systems and Software</em>, 186: 111195 <span class="cites">被引 29</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf ccfa">
-          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-a">CCF-A</span></div>
+          <div class="pub-meta"><span class="pub-year">2022</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Prioritized+Constraint-Aided+Dynamic+Partial-Order+Reduction" target="_blank" rel="noopener">Prioritized Constraint-Aided Dynamic Partial-Order Reduction</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-A 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/ase-2022/ase-2022-research-papers/93/Prioritized-Constraint-Aided-Dynamic-Partial-Order-Reduction" target="_blank" rel="noopener noreferrer">Research Papers</a></div>
+            <h3>Prioritized Constraint-Aided Dynamic Partial-Order Reduction</h3>
             <p class="authors">J. Su, C. Tian, Z. Yang, J. Yang, <b>B. Yu</b>, Z. Duan</p>
             <p class="venue"><em>ASE 2022</em> — Automated Software Engineering <span class="cites">被引 2</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf">
-          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-b">会议</span></div>
+          <div class="pub-meta"><span class="pub-year">2022</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Multi-Transaction+Sequence+Vulnerability+Detection+for+Smart+Contracts+Based+on+Inter-Path+Data+Dependency" target="_blank" rel="noopener">Multi-Transaction Sequence Vulnerability Detection for Smart Contracts Based on Inter-Path Data Dependency</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-C 会议</span><span class="badge b-track-pending" title="暂未查到足以确认具体赛道的官方资料">赛道待核实</span></div>
+            <h3>Multi-Transaction Sequence Vulnerability Detection for Smart Contracts Based on Inter-Path Data Dependency</h3>
             <p class="authors">S. Zhang, M. Wang, Y. Liu, Y. Zhang, <b>B. Yu</b></p>
             <p class="venue"><em>QRS 2022</em> — Software Quality, Reliability and Security <span class="cites">被引 10</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf">
-          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-b">会议</span></div>
+          <div class="pub-meta"><span class="pub-year">2022</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Grey-box+Fuzzing+Based+on+Execution+Feedback+for+EOSIO+Smart+Contracts" target="_blank" rel="noopener">Grey-box Fuzzing Based on Execution Feedback for EOSIO Smart Contracts</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属会议的 CCF 级别 · 2026 年第七版目录">CCF-C 会议</span><a class="badge b-track" title="会议具体赛道；点击查看官方来源" href="https://conf.researchr.org/details/apsec-2022/apsec-2022-technical-track/1/Grey-box-Fuzzing-Based-on-Execution-Feedback-for-EOSIO-Smart-Contracts" target="_blank" rel="noopener noreferrer">Technical Track</a></div>
+            <h3>Grey-box Fuzzing Based on Execution Feedback for EOSIO Smart Contracts</h3>
             <p class="authors">W. Li, M. Wang, <b>B. Yu</b>, Y. Shi, M. Fu, Y. Shao</p>
             <p class="venue"><em>APSEC 2022</em>, 1–10 <span class="cites">被引 9</span></p>
           </div>
         </li>
-        <li class="pub reveal" data-cat="journal cn ccfa">
-          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-a">CCF-A</span></div>
+        <li class="pub reveal" data-cat="journal cn">
+          <div class="pub-meta"><span class="pub-year">2022</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=面向+SQLite3+数据库+API+调用序列的并行运行时验证方法" target="_blank" rel="noopener">面向 SQLite3 数据库 API 调用序列的并行运行时验证方法</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="CCF 计算领域高质量科技期刊分级目录（2025）">CCF 中文 T1</span></div>
+            <h3>面向 SQLite3 数据库 API 调用序列的并行运行时验证方法</h3>
             <p class="authors"><b>于斌</b>, 陆旭, 田聪*, 段振华*, 张南</p>
             <p class="venue"><em>软件学报</em>, 33(8): 2755–2768</p>
           </div>
         </li>
-        <li class="pub reveal" data-cat="journal cn ccfa">
-          <div class="pub-meta"><span class="pub-year">2022</span><span class="badge b-a">CCF-A</span></div>
+        <li class="pub reveal" data-cat="journal cn">
+          <div class="pub-meta"><span class="pub-year">2022</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=一种利用非确定规划的+LTL+合成方法" target="_blank" rel="noopener">一种利用非确定规划的 LTL 合成方法</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="CCF 计算领域高质量科技期刊分级目录（2025）">CCF 中文 T1</span></div>
+            <h3>一种利用非确定规划的 LTL 合成方法</h3>
             <p class="authors">陆旭, <b>于斌</b>*, 田聪*, 段振华*</p>
             <p class="venue"><em>软件学报</em>, 33(8): 2769–2781</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2021</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2021</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=A+Dynamic+Approach+to+Detecting,+Eliminating+and+Fixing+Memory+Leaks" target="_blank" rel="noopener">A Dynamic Approach to Detecting, Eliminating and Fixing Memory Leaks</a></h3>
+            <div class="pub-labels"><span class="badge b-b">期刊</span><span class="badge b-cas" title="2025 年升级版 · 数学大类分区">中科院 4 区</span></div>
+            <h3>A Dynamic Approach to Detecting, Eliminating and Fixing Memory Leaks</h3>
             <p class="authors"><b>B. Yu</b>, C. Tian, N. Zhang, Z. Duan, H. Du</p>
             <p class="venue"><em>Journal of Combinatorial Optimization</em>, 42(3): 409–426 <span class="cites">被引 18</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2021</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2021</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Temporal+Logic+Specification+Mining+of+Programs" target="_blank" rel="noopener">Temporal Logic Specification Mining of Programs</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 4 区</span></div>
+            <h3>Temporal Logic Specification Mining of Programs</h3>
             <p class="authors">N. Zhang, <b>B. Yu</b>*, C. Tian*, Z. Duan*, X. Yuan</p>
             <p class="venue"><em>Theoretical Computer Science</em>, 857: 29–42 <span class="cites">被引 8</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal cn">
-          <div class="pub-meta"><span class="pub-year">2021</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2021</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=基于运行时验证的边缘服务器+DoS+攻击检测方法" target="_blank" rel="noopener">基于运行时验证的边缘服务器 DoS 攻击检测方法</a></h3>
+            <div class="pub-labels"><span class="badge b-a" title="CCF 计算领域高质量科技期刊分级目录（2025）">CCF 中文 T1</span></div>
+            <h3>基于运行时验证的边缘服务器 DoS 攻击检测方法</h3>
             <p class="authors"><b>于斌</b>, 张南, 陆旭, 段振华*, 田聪*</p>
             <p class="venue"><em>通信学报</em>, 42(9): 75–86</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf">
-          <div class="pub-meta"><span class="pub-year">2021</span><span class="badge b-b">会议</span></div>
+          <div class="pub-meta"><span class="pub-year">2021</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Runtime+Verification+of+Ethereum+Smart+Contracts+Based+on+MSVL" target="_blank" rel="noopener">Runtime Verification of Ethereum Smart Contracts Based on MSVL</a></h3>
+            <div class="pub-labels"><span class="badge b-b">会议</span><a class="badge b-track" title="Workshop 修订后的完整论文；点击查看出版社来源" href="https://link.springer.com/chapter/10.1007/978-3-030-77474-5_10" target="_blank" rel="noopener noreferrer">Workshop · Revised Full Paper</a></div>
+            <h3>Runtime Verification of Ethereum Smart Contracts Based on MSVL</h3>
             <p class="authors"><b>B. Yu</b>, X. Lu, H. Chen, M. Lei, X. Wang</p>
             <p class="venue"><em>SOFL+MSVL 2021</em> — Structured Object-Oriented Formal Language and Method <span class="cites">被引 5</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2020</span><span class="badge b-q1">中科院 1 区</span></div>
+          <div class="pub-meta"><span class="pub-year">2020</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=A+Knowledge-Based+Temporal+Planning+Approach+for+Urban+Traffic+Control" target="_blank" rel="noopener">A Knowledge-Based Temporal Planning Approach for Urban Traffic Control</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 2 区 · TOP</span></div>
+            <h3>A Knowledge-Based Temporal Planning Approach for Urban Traffic Control</h3>
             <p class="authors">X. Lu, N. Zhang, C. Tian, <b>B. Yu</b>, Z. Duan</p>
             <p class="venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 22(3): 1907–1918 <span class="cites">被引 11</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf">
-          <div class="pub-meta"><span class="pub-year">2020</span><span class="badge b-b">会议</span></div>
+          <div class="pub-meta"><span class="pub-year">2020</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Parallel+Runtime+Verification+Approach+for+Alternate+Execution+of+Multiple+Threads" target="_blank" rel="noopener">Parallel Runtime Verification Approach for Alternate Execution of Multiple Threads</a></h3>
+            <div class="pub-labels"><span class="badge b-b">会议</span><a class="badge b-track" title="Workshop 修订后的完整论文；点击查看出版社来源" href="https://link.springer.com/book/10.1007/978-3-030-41418-4" target="_blank" rel="noopener noreferrer">Workshop · Revised Full Paper</a></div>
+            <h3>Parallel Runtime Verification Approach for Alternate Execution of Multiple Threads</h3>
             <p class="authors"><b>B. Yu</b>, J. Liu, M. Lei, Y. Yu, H. Chen</p>
             <p class="venue"><em>SOFL+MSVL 2020</em> <span class="cites">被引 1</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="cn">
-          <div class="pub-meta"><span class="pub-year">2019</span><span class="badge b-b">学位论文</span></div>
+          <div class="pub-meta"><span class="pub-year">2019</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=MSVL+程序的高效运行时验证方法研究" target="_blank" rel="noopener">MSVL 程序的高效运行时验证方法研究</a></h3>
+            <div class="pub-labels"><span class="badge b-b">学位论文</span></div>
+            <h3>MSVL 程序的高效运行时验证方法研究</h3>
             <p class="authors"><b>于斌</b></p>
             <p class="venue">西安电子科技大学 博士学位论文</p>
           </div>
         </li>
         <li class="pub reveal" data-cat="journal">
-          <div class="pub-meta"><span class="pub-year">2018</span><span class="badge b-b">CCF-B</span></div>
+          <div class="pub-meta"><span class="pub-year">2018</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Verifying+Temporal+Properties+of+Programs:+A+Parallel+Approach" target="_blank" rel="noopener">Verifying Temporal Properties of Programs: A Parallel Approach</a></h3>
+            <div class="pub-labels"><span class="badge b-b" title="所属期刊的 CCF 级别 · 2026 年第七版目录">CCF-B 期刊</span><span class="badge b-cas" title="2025 年升级版 · 计算机科学大类分区">中科院 3 区</span></div>
+            <h3>Verifying Temporal Properties of Programs: A Parallel Approach</h3>
             <p class="authors"><b>B. Yu</b>, Z. Duan*, C. Tian, N. Zhang</p>
             <p class="venue"><em>Journal of Parallel and Distributed Computing</em>, 118: 89–99 <span class="cites">被引 22</span></p>
           </div>
         </li>
         <li class="pub reveal" data-cat="conf">
-          <div class="pub-meta"><span class="pub-year">2014</span><span class="badge b-b">会议</span></div>
+          <div class="pub-meta"><span class="pub-year">2014</span></div>
           <div class="pub-main">
-            <h3><a href="https://scholar.google.com/scholar?q=Bounded+Model+Checking+of+Traffic+Light+Control+System" target="_blank" rel="noopener">Bounded Model Checking of Traffic Light Control System</a></h3>
+            <div class="pub-labels"><span class="badge b-b">论文集</span><span class="badge b-track-pending" title="暂未查到足以确认具体赛道的官方资料">赛道待核实</span></div>
+            <h3>Bounded Model Checking of Traffic Light Control System</h3>
             <p class="authors"><b>B. Yu</b>, Z. Duan, C. Tian</p>
             <p class="venue"><em>Electronic Notes in Theoretical Computer Science</em>, 309: 63–74 <span class="cites">被引 10</span></p>
           </div>
@@ -645,6 +692,8 @@
           <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6l4 4 4-4"/></svg>
         </button>
       </div>
+
+      <p class="pub-classification-note">CCF 级别按<a href="https://www.ccf.org.cn/Academic_Evaluation/By_category/" target="_blank" rel="noopener noreferrer">2026 年第七版目录</a>标注所属会议或期刊；本站 CCF-A 分类包含 A 类会议各赛道论文，具体赛道显示在题名前，点击赛道标签可查看来源。中文期刊采用 CCF 2025 年目录 T1 分类。期刊分区统一采用<a href="https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm" target="_blank" rel="noopener noreferrer">2025 年中科院升级版大类分区</a>。</p>
 
       <p class="pub-more reveal">
         <code>*</code> 标注为通讯作者 · 被引次数抓取自 Google Scholar（2026 年 11 月）· 完整 72 篇见
@@ -751,101 +800,274 @@
   </section>
 
   <!-- ========== KERNEL BUGS ========== -->
-  <section class="section" id="bugs">
+  <section class="section bug-section" id="bugs" aria-labelledby="bugs-heading">
     <div class="wrap">
       <div class="sec-head reveal">
-        <span class="sec-num">06+</span>
+        <span class="sec-num">07</span>
         <div>
-          <h2>内核缺陷与修复</h2>
-          <p class="sec-sub">Linux Kernel Bugs Found by DevGen</p>
+          <h2 id="bugs-heading">内核缺陷与修复</h2>
+          <p class="sec-sub">Kernel Bug Tracker · DevGen</p>
         </div>
       </div>
-
-      <div class="bug-intro reveal">
-        <p>团队研发的 <strong>DevGen</strong> 工具基于大语言模型自动分析 Linux 内核驱动源码，已发现并被社区确认多处真实缺陷。以下为代表性漏洞列表，完整列表见 <a href="https://github.com/Wmingyu/DevGen-results" target="_blank" rel="noopener">GitHub →</a></p>
+      <div class="bug-intro">
+        <p>DevGen 研究的 Linux 内核缺陷发现、分析与上游反馈记录。点击条目标题，可查看报告详情、补丁历史及邮件列表讨论。</p>
+        <a class="bug-source-link" href="https://github.com/Wmingyu/DevGen-results/blob/main/README.md" target="_blank" rel="noopener noreferrer">查看源项目</a>
       </div>
-
-      <div class="bug-table-wrap reveal">
+      <div class="bug-summary" aria-label="源表记录统计">
+        <div><strong>37</strong><span>公开记录</span></div>
+        <div><strong>18</strong><span>标记为 Patch Accepted</span></div>
+        <div><strong>12</strong><span>附有 CVE 链接</span></div>
+      </div>
+      <div class="bug-table-meta">
+        <p>数据核对于 <time datetime="2026-11-19">2026.11.19</time> · 状态与评分沿用源表</p>
+        <p class="bug-scroll-hint">左右滑动查看完整表格 <span aria-hidden="true">↔</span></p>
+      </div>
+      <div class="bug-table-scroll" role="region" aria-label="DevGen 内核缺陷记录，可横向滚动" tabindex="0">
         <table class="bug-table">
-          <thead>
-            <tr>
-              <th>缺陷类型</th>
-              <th>影响子系统 / 函数</th>
-              <th>严重程度</th>
-              <th>状态</th>
-            </tr>
-          </thead>
+          <caption class="sr-only">DevGen 内核缺陷与上游反馈记录，共 37 条，更新于 2026 年 11 月 19 日</caption>
+          <colgroup><col class="bug-col-id"><col class="bug-col-location"><col class="bug-col-title"><col class="bug-col-notes"></colgroup>
+          <thead><tr><th scope="col">编号</th><th scope="col">代码位置</th><th scope="col">缺陷与详情</th><th scope="col">状态与备注</th></tr></thead>
           <tbody>
-            <tr>
-              <td><span class="bug-tag bug-cve">CVE-2026-23149</span></td>
-              <td>drm_gem_change_handle_ioctl — 未验证负数 handle</td>
-              <td><span class="sev sev-high">高</span></td>
-              <td><span class="bug-status">已修复</span></td>
+            <tr id="bug-001">
+              <th scope="row">#001</th>
+              <td class="bug-location"><code>net/ethernet/packetengines/hamachi.c</code></td>
+              <td class="bug-title"><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4cf42f9c3e3624fedf4f6c38c3d81d80c8b3cbd6" target="_blank" rel="noopener noreferrer">net: packetengines: remove obsolete hamachi driver</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span></div></td>
             </tr>
-            <tr>
-              <td>Use-After-Free</td>
-              <td>adf_dev_up / adf_devmgr_get_dev_by_id</td>
-              <td><span class="sev sev-high">高</span></td>
-              <td><span class="bug-status">已修复</span></td>
+            <tr id="bug-002">
+              <th scope="row">#002</th>
+              <td class="bug-location"><code>net/ethernet/packetengines/yellowfin.c</code></td>
+              <td class="bug-title"><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=aec3202247b4ab41c5bf3b9f704a2d9a323a051b" target="_blank" rel="noopener noreferrer">net: packetengines: remove obsolete yellowfin driver</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span></div></td>
             </tr>
-            <tr>
-              <td>Memory Leak</td>
-              <td>fbcon_do_set_font / udpv6_sendmsg / vc_allocate</td>
-              <td><span class="sev sev-med">中</span></td>
-              <td><span class="bug-status">已修复</span></td>
+            <tr id="bug-003">
+              <th scope="row">#003</th>
+              <td class="bug-location"><code>net/ipv6/udp.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Memory%20leak%20in%20udpv6_sendmsg().md" target="_blank" rel="noopener noreferrer">Memory leak in udpv6_sendmsg</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span><span class="bug-status bug-status--indirect">🔄 Indirectly Fixed</span></div></td>
             </tr>
-            <tr>
-              <td>NULL Pointer Deref</td>
-              <td>amd64_fetch_size</td>
-              <td><span class="sev sev-high">高</span></td>
-              <td><span class="bug-status">已修复</span></td>
+            <tr id="bug-004">
+              <th scope="row">#004</th>
+              <td class="bug-location"><code>gpu/drm/drm_gem.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Unvalidated%20negative%20handle%20in%20drm_gem_change_handle_ioctl.md" target="_blank" rel="noopener noreferrer">WARNING in idr_alloc</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span></div></td>
             </tr>
-            <tr>
-              <td>Out-of-Bounds</td>
-              <td>gmbus_xfer / fb_io_read / i801_isr_byte_done</td>
-              <td><span class="sev sev-high">高</span></td>
-              <td><span class="bug-status">已修复</span></td>
+            <tr id="bug-005">
+              <th scope="row">#005</th>
+              <td class="bug-location"><code>fs/hugetlbfs/inode.c</code><br><code>mm/vma.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/resv_map%20memory%20leak%20in%20__mmap_region().md" target="_blank" rel="noopener noreferrer">resv_map memory leak in __mmap_region()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-46318" target="_blank" rel="noopener noreferrer">CVE-2026-46318</a></div></td>
             </tr>
-            <tr>
-              <td>Deadlock</td>
-              <td>vkms vblank timer / mac80211_hwsim / fasync signaling</td>
-              <td><span class="sev sev-high">高</span></td>
-              <td><span class="bug-status">已修复</span></td>
+            <tr id="bug-006">
+              <th scope="row">#006</th>
+              <td class="bug-location"><code>i2c/i2c-dev.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Integer%20overflow%20in%20I2C_TIMEOUT%20ioctl.md" target="_blank" rel="noopener noreferrer">Integer overflow in I2C_TIMEOUT ioctl</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-52948" target="_blank" rel="noopener noreferrer">CVE-2026-52948</a></div></td>
             </tr>
-            <tr>
-              <td>Integer Overflow</td>
-              <td>I2C_TIMEOUT ioctl / hamachi_init_one</td>
-              <td><span class="sev sev-med">中</span></td>
-              <td><span class="bug-status">已修复</span></td>
+            <tr id="bug-007">
+              <th scope="row">#007</th>
+              <td class="bug-location"><code>char/agp/amd64-agp.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/NULL%20ptr%20deref%20in%20amd64_fetch_size().md" target="_blank" rel="noopener noreferrer">NULL ptr deref in amd64_fetch_size()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-53325" target="_blank" rel="noopener noreferrer">CVE-2026-53325</a></div></td>
             </tr>
-            <tr>
-              <td>Soft Lockup / RCU Stall</td>
-              <td>ast_2500_patch_ahb / TCSBRKP duration</td>
-              <td><span class="sev sev-high">高</span></td>
-              <td><span class="bug-status">已修复</span></td>
+            <tr id="bug-008">
+              <th scope="row">#008</th>
+              <td class="bug-location"><code>x86/kernel/smpboot.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/WARN_ON%20in%20set_cpu_sibling_map%20via%20numa%3Dfake.md" target="_blank" rel="noopener noreferrer">WARN_ON in set_cpu_sibling_map via numa=fake</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span></div></td>
+            </tr>
+            <tr id="bug-009">
+              <th scope="row">#009</th>
+              <td class="bug-location"><code>net/ethernet/packetengines/hamachi.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Divide%20by%20zero%20in%20hamachi_init_one.md" target="_blank" rel="noopener noreferrer">Divide by zero in hamachi_init_one</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span></div></td>
+            </tr>
+            <tr id="bug-010">
+              <th scope="row">#010</th>
+              <td class="bug-location"><code>crypto/intel/qat/qat_common/adf_dev_mgr.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Use-After-Free%20in%20adf_devmgr_get_dev_by_id().md" target="_blank" rel="noopener noreferrer">Use-After-Free in adf_devmgr_get_dev_by_id()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span></div></td>
+            </tr>
+            <tr id="bug-011">
+              <th scope="row">#011</th>
+              <td class="bug-location"><code>drivers/crypto/qat/qat_common/adf_ctl_drv.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Local%20DoS%20via%20printk%20storm%20in%20QAT%20ioctls.md" target="_blank" rel="noopener noreferrer">Local DoS via printk storm in QAT ioctls</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-64529" target="_blank" rel="noopener noreferrer">CVE-2026-64529</a><span class="bug-severity">HIGH 7.8</span></div></td>
+            </tr>
+            <tr id="bug-012">
+              <th scope="row">#012</th>
+              <td class="bug-location"><code>i2c/busses/i2c-i801.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Hardware%20state%20machine%20corruption%20in%20i801_access().md" target="_blank" rel="noopener noreferrer">Hardware state machine corruption in i801_access()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-64205" target="_blank" rel="noopener noreferrer">CVE-2026-64205</a></div></td>
+            </tr>
+            <tr id="bug-013">
+              <th scope="row">#013</th>
+              <td class="bug-location"><code>watchdog/wdt_pci.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Shared%20IRQ%20storm%20in%20wdtpci_interrupt().md" target="_blank" rel="noopener noreferrer">Shared IRQ storm in wdtpci_interrupt()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span><span class="bug-status bug-status--wontfix">❌ WontFix</span></div></td>
+            </tr>
+            <tr id="bug-014">
+              <th scope="row">#014</th>
+              <td class="bug-location"><code>gpu/drm/ast/ast_2500.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Soft%20lockup%20in%20ast_2500_patch_ahb().md" target="_blank" rel="noopener noreferrer">Soft lockup in ast_2500_patch_ahb()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span><span class="bug-status bug-status--sent">🛠️ Patch Sent</span></div></td>
+            </tr>
+            <tr id="bug-015">
+              <th scope="row">#015</th>
+              <td class="bug-location"><code>bluetooth/hci_ldisc.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/UAFs%20and%20race%20conditions%20in%20hci_uart%20lifecycle.md" target="_blank" rel="noopener noreferrer">UAFs and race conditions in hci_uart lifecycle</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-46275" target="_blank" rel="noopener noreferrer">CVE-2026-46275</a><span class="bug-severity">HIGH 7.8</span></div></td>
+            </tr>
+            <tr id="bug-016">
+              <th scope="row">#016</th>
+              <td class="bug-location"><code>gpu/drm/vkms/vkms_crtc.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/ABBA%20deadlock%20in%20vkms%20vblank%20timer.md" target="_blank" rel="noopener noreferrer">ABBA deadlock in vkms vblank timer</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2025-71315" target="_blank" rel="noopener noreferrer">CVE-2025-71315</a></div></td>
+            </tr>
+            <tr id="bug-017">
+              <th scope="row">#017</th>
+              <td class="bug-location"><code>gpu/drm/vmwgfx/vmwgfx_vkms.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Hrtimer%20interrupt%20storm%20in%20vmw_vkms_enable_vblank().md" target="_blank" rel="noopener noreferrer">Hrtimer interrupt storm in vmw_vkms_enable_vblank()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span><span class="bug-status bug-status--sent">🛠️ Patch Sent</span></div></td>
+            </tr>
+            <tr id="bug-018">
+              <th scope="row">#018</th>
+              <td class="bug-location"><code>fs/fcntl.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/SOFTIRQ-unsafe%20lock%20order%20deadlock%20in%20fasync%20signaling.md" target="_blank" rel="noopener noreferrer">SOFTIRQ-unsafe lock order deadlock in fasync signaling</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-52946" target="_blank" rel="noopener noreferrer">CVE-2026-52946</a><span class="bug-severity">HIGH 7.5</span></div></td>
+            </tr>
+            <tr id="bug-019">
+              <th scope="row">#019</th>
+              <td class="bug-location"><code>video/fbdev/core/fbcon.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Memory%20leak%20in%20fbcon_do_set_font().md" target="_blank" rel="noopener noreferrer">Memory leak in fbcon_do_set_font()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">🆕 Bug Confirmed</span><span class="bug-status bug-status--wontfix">❌ WontFix</span></div></td>
+            </tr>
+            <tr id="bug-020">
+              <th scope="row">#020</th>
+              <td class="bug-location"><code>gpu/drm/vkms/vkms_crtc.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Hrtimer%20livelock%20via%20unvalidated%20display%20mode.md" target="_blank" rel="noopener noreferrer">Hrtimer livelock via unvalidated display mode</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--indirect">🔄 Indirectly Fixed</span></div></td>
+            </tr>
+            <tr id="bug-021">
+              <th scope="row">#021</th>
+              <td class="bug-location"><code>gpu/drm/drm_prime.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/rb_tree%20corruption%20in%20drm_prime_remove_buf_handle().md" target="_blank" rel="noopener noreferrer">rb_tree corruption in drm_prime_remove_buf_handle()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span><span class="bug-status bug-status--wontfix">❌ WontFix</span><span class="bug-note">On Hold</span></div></td>
+            </tr>
+            <tr id="bug-022">
+              <th scope="row">#022</th>
+              <td class="bug-location"><code>net/qrtr/af_qrtr.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Refcount%20saturation%20and%20UAF%20in%20qrtr_port_remove().md" target="_blank" rel="noopener noreferrer">Refcount saturation and UAF in qrtr_port_remove()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-52947" target="_blank" rel="noopener noreferrer">CVE-2026-52947</a><span class="bug-severity">HIGH 7.8</span></div></td>
+            </tr>
+            <tr id="bug-023">
+              <th scope="row">#023</th>
+              <td class="bug-location"><code>drivers/gpu/drm/drm_gem.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/WARNING%20in%20idr_alloc%20via%20drm_gem_change_handle_ioctl.md" target="_blank" rel="noopener noreferrer">WARNING in idr_alloc via drm_gem_change_handle_ioctl</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-23149" target="_blank" rel="noopener noreferrer">CVE-2026-23149</a></div></td>
+            </tr>
+            <tr id="bug-024">
+              <th scope="row">#024</th>
+              <td class="bug-location"><code>drivers/crypto/intel/qat/qat_common/adf_init.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Use-After-Free%20in%20adf_dev_up().md" target="_blank" rel="noopener noreferrer">Use-After-Free in adf_dev_up()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span></div></td>
+            </tr>
+            <tr id="bug-025">
+              <th scope="row">#025</th>
+              <td class="bug-location"><code>drivers/net/wireless/mac80211_hwsim.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Context-recursion%20deadlock%20in%20mac80211_hwsim.md" target="_blank" rel="noopener noreferrer">Context-recursion deadlock in mac80211_hwsim</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span><span class="bug-status bug-status--indirect">🔄 Indirectly Fixed</span></div></td>
+            </tr>
+            <tr id="bug-026">
+              <th scope="row">#026</th>
+              <td class="bug-location"><code>drivers/i2c/busses/i2c-i801.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Interrupt%20storm%20in%20i801_isr()%20via%20invalid%20block%20read%20size.md" target="_blank" rel="noopener noreferrer">Interrupt storm in i801_isr() via invalid block read size</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--reported">🆕 Bug Reported</span></div></td>
+            </tr>
+            <tr id="bug-027">
+              <th scope="row">#027</th>
+              <td class="bug-location"><code>drivers/misc/ibmasm/module.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Page%20fault%20via%20undersized%20PCI%20BAR%200%20in%20ibmasm.md" target="_blank" rel="noopener noreferrer">misc: ibmasm: Remove obsolete IBM Remote Supervisor Adapter driver</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span></div></td>
+            </tr>
+            <tr id="bug-028">
+              <th scope="row">#028</th>
+              <td class="bug-location"><code>drivers/video/fbdev/core/fbcon.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Out-of-bounds%20read%20in%20err_out%20of%20fbcon_do_set_font().md" target="_blank" rel="noopener noreferrer">Out-of-bounds read in err_out of fbcon_do_set_font()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-53402" target="_blank" rel="noopener noreferrer">CVE-2026-53402</a><span class="bug-severity">HIGH 7.1</span></div></td>
+            </tr>
+            <tr id="bug-029">
+              <th scope="row">#029</th>
+              <td class="bug-location"><code>drivers/i2c/busses/i2c-i801.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Stack-out-of-bounds%20in%20i801_isr_byte_done().md" target="_blank" rel="noopener noreferrer">Stack-out-of-bounds in i801_isr_byte_done()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--reported">🆕 Bug Reported</span><span class="bug-status bug-status--sent">🛠️ Patch Sent</span></div></td>
+            </tr>
+            <tr id="bug-030">
+              <th scope="row">#030</th>
+              <td class="bug-location"><code>kernel/module/main.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/UAF%20and%20GPF%20in%20idempotent_init_module().md" target="_blank" rel="noopener noreferrer">UAF and GPF in idempotent_init_module()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">🆕 Bug Confirmed</span><span class="bug-status bug-status--wontfix">❌ WontFix</span></div></td>
+            </tr>
+            <tr id="bug-031">
+              <th scope="row">#031</th>
+              <td class="bug-location"><code>drivers/tty/serial/8250/8250_port.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Page%20Fault%20and%20UAF%20in%20mem_serial_in().md" target="_blank" rel="noopener noreferrer">Page Fault and UAF in mem_serial_in()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">🆕 Bug Confirmed</span><span class="bug-status bug-status--wontfix">❌ WontFix</span></div></td>
+            </tr>
+            <tr id="bug-032">
+              <th scope="row">#032</th>
+              <td class="bug-location"><code>drivers/video/fbdev/core/fb_io_fops.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Potential%20OOB%20access%20in%20fb_io_readwrite.md" target="_blank" rel="noopener noreferrer">Potential OOB access in fb_io_read/write</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span></div></td>
+            </tr>
+            <tr id="bug-033">
+              <th scope="row">#033</th>
+              <td class="bug-location"><code>drivers/video/fbdev/core/fb_io_fops.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Pointer%20desynchronization%20and%20OOB%20read%20in%20fb_io_read().md" target="_blank" rel="noopener noreferrer">Pointer desynchronization and OOB read in fb_io_read()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span><a class="bug-cve" href="https://www.cve.org/CVERecord?id=CVE-2026-80578" target="_blank" rel="noopener noreferrer">CVE-2026-80578</a><span class="bug-severity">HIGH 7.3</span></div></td>
+            </tr>
+            <tr id="bug-034">
+              <th scope="row">#034</th>
+              <td class="bug-location"><code>drivers/i2c/busses/i2c-i801.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Hung%20Task%20panics%20via%20malicious%20I2C_TIMEOUT%20ioctl.md" target="_blank" rel="noopener noreferrer">Hung Task panics via malicious I2C_TIMEOUT ioctl</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--wontfix">❌ WontFix</span><span class="bug-status bug-status--crash">🛡️ Crash</span></div></td>
+            </tr>
+            <tr id="bug-035">
+              <th scope="row">#035</th>
+              <td class="bug-location"><code>drivers/tty/vt/vt.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/Memory%20leak%20in%20vc_allocate()%20on%20screen%20buffer%20allocation%20failure.md" target="_blank" rel="noopener noreferrer">Memory leak in vc_allocate() on screen buffer allocation failure</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--accepted">✅ Patch Accepted</span></div></td>
+            </tr>
+            <tr id="bug-036">
+              <th scope="row">#036</th>
+              <td class="bug-location"><code>drivers/gpu/drm/gma500/intel_gmbus.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/OOB%20access%20and%20integer%20underflow%20in%20gmbus_xfer().md" target="_blank" rel="noopener noreferrer">OOB access and integer underflow in gmbus_xfer()</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--reported">🆕 Bug Reported</span><span class="bug-status bug-status--sent">🛠️ Patch Sent</span></div></td>
+            </tr>
+            <tr id="bug-037">
+              <th scope="row">#037</th>
+              <td class="bug-location"><code>drivers/tty/tty_io.c</code></td>
+              <td class="bug-title"><a href="https://github.com/Wmingyu/DevGen-results/blob/main/details/RCU%20stall%20via%20excessively%20long%20TCSBRKP%20duration.md" target="_blank" rel="noopener noreferrer">RCU stall via excessively long TCSBRKP duration</a></td>
+              <td><div class="bug-notes"><span class="bug-status bug-status--confirmed">👀 Bug Confirmed</span><span class="bug-status bug-status--wontfix">❌ WontFix</span></div></td>
             </tr>
           </tbody>
         </table>
       </div>
-
-      <div class="bug-stats reveal">
-        <div class="bug-stat">
-          <span class="bug-stat-num">40+</span>
-          <span class="bug-stat-lbl">已确认缺陷</span>
-        </div>
-        <div class="bug-stat">
-          <span class="bug-stat-num">15</span>
-          <span class="bug-stat-lbl">CVE 编号</span>
-        </div>
-        <div class="bug-stat">
-          <span class="bug-stat-num">6</span>
-          <span class="bug-stat-lbl">缺陷类型覆盖</span>
-        </div>
-        <div class="bug-stat">
-          <span class="bug-stat-num">100%</span>
-          <span class="bug-stat-lbl">社区确认率</span>
-        </div>
-      </div>
+      <details class="bug-legend">
+        <summary>状态说明与数据来源</summary>
+        <dl>
+          <div><dt>🆕 Bug Reported</dt><dd>已提交报告，等待首次回应。</dd></div>
+          <div><dt>👀 Bug Confirmed</dt><dd>开发者已确认或正在调试。</dd></div>
+          <div><dt>💬 Needs Reply</dt><dd>讨论仍在进行，需要进一步回复。</dd></div>
+          <div><dt>🛠️ Patch Sent</dt><dd>已提交修复补丁，等待评审。</dd></div>
+          <div><dt>✅ Patch Accepted</dt><dd>补丁已获认可，已合并或进入上游队列。</dd></div>
+          <div><dt>❌ WontFix</dt><dd>受设计选择、硬件限制等因素影响，不予修复。</dd></div>
+          <div><dt>🔄 Indirectly Fixed</dt><dd>随上游代码重构或其他补丁间接解决。</dd></div>
+          <div><dt>🛡️ Crash</dt><dd>特权 API 滥用引发的崩溃；源表注明上游认为属于预期行为，并非安全漏洞。</dd></div>
+        </dl>
+        <p>本模块按源表展示公开记录，包含驱动维护及不同处理状态，不等同于 37 个独立、已确认的安全漏洞。同一条记录可具有多个状态；CVE 编号与评分均沿用源表。</p>
+        <p>来源：<a href="https://github.com/Wmingyu/DevGen-results/blob/a58a746eedebc2c4864a88ef1d810dc28309b6c9/README.md" target="_blank" rel="noopener noreferrer">DevGen-results README（本次导入版本）</a>。后续进展请查看源项目。</p>
+      </details>
     </div>
   </section>
 
@@ -864,7 +1086,7 @@
   <section class="section" id="contact">
     <div class="wrap">
       <div class="sec-head reveal">
-        <span class="sec-num">07</span>
+        <span class="sec-num">08</span>
         <div>
           <h2>联系方式</h2>
           <p class="sec-sub">Contact</p>
