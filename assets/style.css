@@ -1035,3 +1035,8 @@ a.b-track:hover,a.b-track:focus-visible{color:var(--blue);border-color:var(--blu
 .pub-classification-note a{text-decoration:underline;text-underline-offset:3px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:640px){.pub-labels{gap:6px}.pub-labels .badge{font-size:12px}}
+
+/* Publication titles link to verified paper details. */
+.pub-main h3 .pub-title-link{color:var(--blue);text-decoration:none;overflow-wrap:anywhere}
+.pub-main h3 .pub-title-link:hover{text-decoration:underline;text-underline-offset:.18em;text-decoration-thickness:1px}
+.pub-main h3 .pub-title-link:focus-visible{outline:2px solid var(--blue);outline-offset:4px;border-radius:2px;text-decoration:underline}
